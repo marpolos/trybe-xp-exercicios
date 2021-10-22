@@ -1,0 +1,29 @@
+ssh-keygen -t rsa -b 4096 -C "seuemail@gmail.com"
+Enter a file in which to save the key (/home/you/.ssh/id_rsa): [Press enter]
+-> Pressione enter para salvar na pasta padrão;
+Enter passphrase (empty for no passphrase): [Type a passphrase]
+Enter same passphrase again: [Type passphrase again]
+-> Digite uma senha ou pressione enter (melhor o enter);
+INSTALAR O SSH-AGENT
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+-> Adiciona a chave no agent;
+XCLIP INSTALAÇÃO
+# Como o xclip não vem instalado por padrão na maioria das distribuições,
+# precisaremos instalá-lo usando o comando a seguir:
+sudo apt-get install xclip
+
+# Agora utilize o comando abaixo para copiar o conteúdo da sua chave id_rsa.pub
+# Para garantir que o conteúdo foi copiado dê Ctrl + V em um editor de texto
+xclip -sel clip < ~/.ssh/id_rsa.pub
+SE O XCLIP NÃO FUNCIONAR:
+cat ~/.ssh/id_rsa.pub
+FIM
+Entre no seu GitHub e siga os passos abaixo:
+No canto superior direito do GitHub , clique na sua foto de perfil e clique em Settings ;
+Na barra lateral esquerda, clique em SSH and GPG keys ;
+Clique em New SSH key ou Add SSH key ;
+No campo Título , adicione um descrição para a nova chave;
+Cole sua chave dentro do campo Key ;
+Clique em Add SSH key ;
+Caso seja solicitado, confirme sua senha do Github.
