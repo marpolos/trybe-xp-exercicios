@@ -1,0 +1,12 @@
+O README de um repositório é sempre em markdown , sendo assim na hora de criar o seu você deve usar a extensão .md . Veja abaixo o que cada código presente nos templates de exemplo significa e como você pode personalizá-lo.
+# , ## , ##### : Título, quanto mais # tiverem menor será a fonte. O mínimo para um título é # (um #) e o máximo ###### (seis #);
+[]() : É um texto-âncora, dentro dos [] você adiciona a palavra/frase que será vista e dentro dos () o link que você deseja que ao clicar na palavra/frase ocorra o redirecionamento;
+_[SeuNomeAqui](LinkDoSeuLinkedinAqui)_ : Texto-âncora com o seu nome apontando para o seu Likedin;
+_[Projeto - NomeDoProjeto]()_ : Texto-âncora com o nome do projeto, que já consta no exemplos, apontando para onde você mantém o projeto em questão.
+- : Tópico de uma lista não ordenada;
+- [ ] : Checkbox vazio;
+- [ ] BLOCO-DIA : Checkbox de um dia que você ainda não fez, você deve manté-lo dessa forma enquanto ainda não tiver passado pelo dia em questão;
+- [X] : Checkbox cheio;
+- [X] BLOCO-DIA : Checkbox de um dia que você já fez, você deve manté-lo dessa forma após ter passado pelo dia em questão;
+:white_check_mark: : Emoji de ✅, deve ser adicionado na frente do título de um módulo após a sua conclusão;
+:hourglass_flowing_sand: : Emoji de ⏳, deve ser mantido na frente do título de todos os módulos que ainda não foram concluídos, isso conclui o módulo em que você se encontra.
