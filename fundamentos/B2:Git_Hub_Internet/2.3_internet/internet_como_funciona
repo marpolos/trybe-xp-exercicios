@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Minha página Web!</h1>
+    <h2>Níveis de título: h2.</h2>
+    <h3>Níveis de título: h3.</h3>
+    
+  </header>
+  <p>Bem vindos! Essa é a estrutura básica da minha primeira página</p>
+  <p>O conteúdo dentro de uma tag "ul" descreve uma lista não ordenada ( unordered list ), e cada item da lista está contido na tag "li" ;</p>
+  <p>A linguagem CSS é de estilização e significa: Cascading Style Sheets.</p>
+  <ul>O que estou aprendendo:
+    <li>Git & GitHub</li>
+    <li>Internet</li>
+    <li>Shell</li>
+  </ul>
+</body>
+</html>
