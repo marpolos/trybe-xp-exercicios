@@ -1,0 +1,13 @@
+h1, p{
+    text-align: center;
+}
+li:hover{
+    background: yellowgreen;
+}
+li:active{
+    background: pink;
+    color:tomato;
+}
+ol, ul{
+    list-style:none; /*some o ponto e o número na frente do item */
+}
