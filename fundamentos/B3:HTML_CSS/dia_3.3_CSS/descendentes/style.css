@@ -1,0 +1,9 @@
+ol {
+    background: yellow;
+}
+ol li.par {
+    color: green
+}
+ol li.impar {
+    text-transform: uppercase;
+}
