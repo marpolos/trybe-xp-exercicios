@@ -1,0 +1,6 @@
+div:hover {
+    background: rgb(0, 110, 255);
+}
+h1, h3{
+    font-style: italic;
+}
