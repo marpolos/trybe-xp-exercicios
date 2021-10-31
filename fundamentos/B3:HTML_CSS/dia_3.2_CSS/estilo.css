@@ -1,0 +1,36 @@
+h1{
+    width: 65px;
+    color: orchid;
+    font-family: sans-serif;
+    text-align:center;
+}
+
+.multipla_variacao{
+    
+    text-decoration: underline;
+}
+p{
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 15px;
+}
+body{
+  font-size: 16px;
+  text-align: center;
+  background:rgb(214, 210, 204);
+}
+ul{
+  text-align:left;
+}
+.redondoimg{
+  border-radius: 100px;;
+}
+#amarelo {
+  background-color: yellowgreen;
+}
+#vermelho {
+  background-color:rgb(209, 13, 46);
+}
+#marrom {
+  background-color: brown;
+}
