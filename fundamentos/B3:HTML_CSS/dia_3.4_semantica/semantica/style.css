@@ -1,0 +1,44 @@
+
+      h1, h3 {
+        text-align: center;
+      }
+
+      .first {
+        background-color: rgb(235, 200, 84);
+        font-size: 20px;
+        height: 80px;
+        text-align: center;
+        width: 300px;
+        display:block;
+        /*falta por para o meio*/
+        margin-left:550px;
+
+      }
+
+      .second {
+        background-color: rgb(219, 219, 219);
+        font-size: 20px;
+        height: 80px;
+        text-align: center;
+        width: 300px;
+        display:inline-block;
+      }
+
+      .third {
+        background-color: rgb(170, 142, 106);
+        font-size: 20px;
+        height: 80px;
+        text-align: center;
+        width: 300px;
+        display:inline-block;
+      }
+      li{
+          list-style: none;
+      }
+      section ul li{
+          display: inline;
+      }
+      section ul{
+          text-align: center;
+      }
+
