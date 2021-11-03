@@ -1,6 +1,42 @@
-div:hover {
-    background: rgb(0, 110, 255);
+
+div:first-of-type{ /*seleciona o primeiro elemento desse tipo*/
+    background:chocolate;
 }
-h1, h3{
+div:nth-last-of-type(1){ /*Dentro do () fica a ordem inversa, 1 significa o último, 
+    2 o penúltimo... */
+    background:brown;
+}
+/* nth-child() funciona para conjuntos: 2n, 2n+1, n+7...
+odd -> impar, even ->par;
+div:nth-child(2n){ 
+    background:crimson;
+}
+*/
+div:nth-of-type(2)
+{
+    background:rgb(252, 35, 252);
+}
+div:nth-of-type(3){
+    background:rgb(35, 145, 35);
+    height:300px;
+}
+div:nth-of-type(4){
+    background:deepskyblue;
+}
+div:hover {
+    background: violet;
+    border: 2px solid black;
+}
+/*******************************************/
+/*
+div h3{
     font-style: italic;
+    color: red;
+}
+div h3:nth-of-type(2){
+    color: green;
+}
+*/
+h3:nth-child(odd){
+    font-style:italic;
 }
