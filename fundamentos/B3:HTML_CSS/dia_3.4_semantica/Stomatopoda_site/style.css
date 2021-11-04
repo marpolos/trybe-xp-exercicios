@@ -1,0 +1,49 @@
+.menu li{
+    display:inline-block;
+    width:30%;
+    background-color:aquamarine;
+    padding:10px;
+    text-align:center;
+}
+h1{
+    font-family: 'Fruktur', cursive;
+    font-size:50px;
+    text-align:center;
+}
+h2{
+    text-align:center;
+    font-family: 'Fruktur', cursive;
+    font-size:30px;
+}
+/*
+h3{
+    text-align:center;
+    font-family: 'Fruktur', cursive;
+    font-size:20px;
+}
+*/
+aside{
+    position:absolute;
+    left:920px;
+    font-family: 'Fruktur', cursive;
+    font-size:20px;
+    background-color:blueviolet;
+}
+main{
+    background-color:cornflowerblue;
+    position:absolute;
+    width:700px;
+    margin-left:100px;
+
+    padding:40px;
+}
+p{
+    text-align:justify;
+}
+footer{
+    position:fixed;
+    bottom: 0px;
+    background-color:yellow;
+    padding:5px;
+
+}
