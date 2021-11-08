@@ -13,15 +13,15 @@ h1{
 h2{
     text-align:center;
     font-family: 'Fruktur', cursive;
-    font-size:30px;
+    font-size:25px;
 }
-/*
+
 h3{
     text-align:center;
     font-family: 'Fruktur', cursive;
-    font-size:20px;
+    font-size:30px;
 }
-*/
+
 aside{
     position:absolute;
     left:920px;
@@ -46,4 +46,16 @@ footer{
     background-color:yellow;
     padding:5px;
 
+}
+/* Tabela com propriedades: https://www.w3schools.com/css/css_table.asp*/
+table, th, td {
+    border:3px solid yellow;
+  }
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+    text-align:center;
 }

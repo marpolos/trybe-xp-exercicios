@@ -1,0 +1,15 @@
+Site com projetos: frontendmentor.io
+-> Projetos em CSS
+Projeto que peguei para fazer: https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0/hub/huddle-landing-page-with-a-single-introductory-section-OAQ7orQMU
+***************
+Instalar o npm para zsh:
+sudo apt-get install nodejs 
+Depois: node --version
+**************
+sudo su -> vai para meu root e posso fazer o que eu quiser.
+*********
+Cypress:
+
+No arquivo eu abro o describe e no tópico que eu quero eu digito describe.only
+
+JSFidlle -> treinar JS.
