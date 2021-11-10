@@ -9,8 +9,18 @@
 //documentação: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 
 
- let n = 5;
- let linha="";
- for(i=1; i<=n; i+=1){
-     console.log("*".repeat(n));
- }
+//  let n = 9;
+//  let linha="";
+//  for(i=1; i<=n; i+=1){
+//      console.log(" * ".repeat(n));
+//  }
+
+let n = 5;
+let linha = "";
+for(i = 1; i <= n; i+= 1){
+    for(i2 = 1; i2 <=n; i2 +=1){
+        linha += " * ";
+    }
+console.log(linha);
+linha = "";
+}
