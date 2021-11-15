@@ -14,7 +14,9 @@ let palavra = "aprendizagem";
 console.log(palavra);
 //palavra.reverse();// Não funciona porque é um método de array.
 //console.log(palavra); 
-
-let reverter = palavra.split(',');
+let toarray = palavra.split("");
+console.log(toarray);
+let reverter = toarray.reverse();
 console.log(reverter);
-console.log(palavra[0]);
+let toString = reverter.join("");
+console.log(toString);

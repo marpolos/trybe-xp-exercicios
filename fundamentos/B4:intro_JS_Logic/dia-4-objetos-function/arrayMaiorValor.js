@@ -2,22 +2,14 @@
 // Array de teste: [2, 3, 6, 7, 10, 1]; .
 // Valor esperado no retorno da função: 4 .
 function arrayMaiorValor(arrayExterno){
-    let arrayInterno = [];
-    arrayInterno = arrayExterno;
-    for(i=1; i<arrayExterno.length; i+=1){
-        for(e = 0; e<= i; e+=1){
-            if(arrayExterno[i]<arrayExterno[e]){
-                let position = arrayExterno[i];
-                arrayExterno[i] = arrayExterno [e];
-                arrayExterno[e] = position;
-            }
-        }
-    }
-    let maiorValor = arrayExterno[arrayExterno.length-1];
-    
-    let positionMaiorValor = arrayInterno.indexOf(maiorValor);
-    console.log("A posição do maior valor é " + positionMaiorValor +"\n Array de entrada: " + arrayExterno +"\n Array de saída: " + arrayInterno);
-    //return positionMaiorValor, arrayExterno, arrayExterno;
+   let maior = arrayExterno[0];
 
+   for (let i = 0; i < arrayExterno.length; i += 1) {
+       if (maior < arrayExterno[i]) {
+           maior = arrayExterno[i];
+       }
+   }
+   let position = arrayExterno.indexOf (maior);
+   return position;
 }
-console.log(arrayMaiorValor([2, 3, 6, 7, 10, 11, 22, 77, 8]));
+console.log(arrayMaiorValor([6, 6, 2, 7, 10, 3, 22, 78, 8]));
