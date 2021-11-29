@@ -1,7 +1,9 @@
 Agrupar elemento:
 1 - selecioná-los;
 2 - ctrl+shift+p
-3 - digitar na barra superir wpa
+3 - digitar na barra superir wrap
 4 - selecionar a tag que eu quero;
 ***********************
 ctrl+d -> seleciona tudo com o mesmo nome para trocar.
+***********************
+começar a digitar o nome da tag e apertar ctrl+espaço: completa automaticamente o for;

@@ -19,19 +19,30 @@ const basket = [
     'Banana', 'Pera', 'Abacate', 'Uva',
   ];
 
-  let itensInBasket = [];
-  for (let i = 0, count = 0; i < basket.length; i += 1) {
-    let item = {};
-    item.fruit = basket[i];
-      for (let repeat of basket) {
-        if (basket[i] == repeat){
-          count += 1;
-        }
-        item.repeat = count;
-      }
-      itensInBasket.push(item);
-      count = 0;
-  }
-  console.log(itensInBasket)
+  // let itensInBasket = [];
+  // for (let i = 0, count = 0; i < basket.length; i += 1) {
+  //   let item = {};
+  //   item.fruit = basket[i];
+  //     for (let repeat of basket) {
+  //       if (basket[i] == repeat){
+  //         count += 1;
+  //       }
+  //       item.repeat = count;
+  //     }
+  //     itensInBasket.push(item);
+  //     count = 0;
+  // }
+  // console.log(itensInBasket)
 
+  let itensInBasket = {};
+  for (fruits of basket) {
+    if (itensInBasket[fruits]) {
+      itensInBasket[fruits] +=1;
+    }
+    else {
+      itensInBasket[fruits] = 1;
+    }
+    
+  }
+  console.log(itensInBasket);
   
