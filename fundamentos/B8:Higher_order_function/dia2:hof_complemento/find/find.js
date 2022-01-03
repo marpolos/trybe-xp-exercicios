@@ -1,0 +1,1 @@
+/* Funções disponíveis: find -> encontra elemento, findIndex -> encontra o index do elemento que eu quero, includes -> retorna true/false ao procurar um elemento em um array, indexOf -> retorna o primeiro índice em que um elemento pode ser encontrado. */

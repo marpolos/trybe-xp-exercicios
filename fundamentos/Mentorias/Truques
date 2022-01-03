@@ -7,3 +7,25 @@ Agrupar elemento:
 ctrl+d -> seleciona tudo com o mesmo nome para trocar.
 ***********************
 começar a digitar o nome da tag e apertar ctrl+espaço: completa automaticamente o for;
+REGEX: https://regexone.com/
+https://regexr.com/
+
+-> Emails: /\w+@\w+\.\w+/i
+-> \w -> uma letra
+-> \w+ -> sequecia de letras até algum momento
+-> i -> pega maiuscula e minuscula
+-> \. -> pega somente o ponto, pois só ponto pega qualquer caractere.
+
+**************************
+document.queryselectorAll('input[name=content]:checked');
+-> Vem em nodeList;
+
+const student = {
+name: "Thalles",
+age: 28
+}
+
+const { name, age } = student;
+console.log(name);
+console.log(age);
+

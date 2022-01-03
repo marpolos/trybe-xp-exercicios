@@ -1,3 +1,6 @@
 flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 frog game: https://flexboxfroggy.com/
 teste de flex: https://codepen.io/enxaneta/full/adLPwv
+Tudo sobre flex: https://origamid.com/projetos/flexbox-guia-completo/
+flex-MDN: https://developer.mozilla.org/en-US/docs/Glossary/Flexbox
+Testar-flex: https://codepen.io/enxaneta/full/adLPwv

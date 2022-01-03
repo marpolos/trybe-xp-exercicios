@@ -1,0 +1,15 @@
+{
+  "name": "throw",
+  "version": "1.0.0",
+  "description": "Testando um teste unitario",
+  "main": "testThrow.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.3",
+    "jest-cli": "^27.4.3"
+  }
+}

@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn-some {
+  color: white;
+  background-color: green;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+    </style>
+</head>
+<body>
+    <p>O método some recebe um array, e a função callback checará se pelo menos um elemento satisfaz a condição passada (nesse exemplo, ser ímpar)</p>
+<button id="btn-some">some</button>
+<div id="answer"></div>
+<script>
+    // Array que será passado para o .some
+const numbers = [2, 4, 6, 8, 12, 14, 16, 17];
+
+// Callback que checa se o número é ímpar
+function isOdd(number) {
+  return number % 2 !== 0;
+}
+
+// Função em que passamos o array numbers como parâmetro. Se houver pelo menos um número ímpar, a callback retornará true e a frase "Pelo menos um número é ímpar". Caso contrário, o retorno da callback é false, indicando que não há número ímpar no array.
+checkIsOdd = (array) => {
+  const answer = document.querySelector("#answer");
+  if (array.some(isOdd)) {
+    answer.innerHTML = "Pelo menos um número é ímpar";
+  } else {
+    answer.innerHTML = "Nenhum número é impar";
+  }
+};
+
+const btnSome = document.querySelector("#btn-some");
+
+btnSome.addEventListener("click", () => checkIsOdd(numbers));
+
+</script>
+</body>
+</html>
+<!-- fonte: https://codepen.io/pen/?template=abZoOZz -->

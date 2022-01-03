@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: auto;
+    height: auto;
+    border: 2px solid black;
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.blockForPreferences {
+    border-radius: 10%;
+    border: 1px solid black;
+    width: 145px;
+    height: 45px;
+    text-align: center;
+    background-color: honeydew;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+body {
+    margin: 5%;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+
+img {
+    max-width: 100%;
+    margin: 4%;
+}
+
+figure {
+    margin: 0;
+}
+
+p {
+    font-size: 30px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1024px){
+    body{
+        background-color: burlywood;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    figure {
+        max-width: 46%;
+        margin: 2%
+    }
+
+}

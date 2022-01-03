@@ -1,0 +1,167 @@
+﻿ECMAScript6
+03/12
+Dia 1: let, const, arrow functions e template literals
+Arrow functios
+Funções anônimas: 
+    • () => {}
+    • text => ();
+    • text => test;
+    • (text) => {};
+    • (text, text) => {};
+Template literals
+    • `Texto: ${variavel}`
+Ternary operator
+    • Text == “x” ? se V: se F;
+Aula ao vivo
+Hoisting: içamento, cria uma variável sem usar um let, const ou var. Ele cria automaticamente com o var porque ele pode ser redeclarado. 
+    • Nome = “Marcelle” → console.log(Nome);
+    • var nome = “Murilo”;
+    • Má prática.
+This
+    • Representa o escopo atual.
+    • O escopo global é o objeto window;
+    • Só vê como escopo uma função, e nunca estruturas como if.
+    • O escopo muda de acordo com quem chama a função.
+    • É uma forma de chegar a um elemento em vez de usar o getElementy.
+Buuton.addEventListener (‘click’, init);
+function init () {
+this.style.display = ‘nome’;}
+Objetos
+06/12
+Adicionar chaves:
+objeto.nomeDaPropriedade .
+      objeto[variavelQueContemONomeDaPropriedade] 
+
+Throw
+Erro customizado pelo usuário.
+Throw new Error (‘mensagem’);
+Throw muda o fluxo natural, interrompe a operação.
+Try..catch
+Tento fazer algo e com o catch eu faço outra coisa se cair num erro.
+catch(erro) {alert(erro.message)};
+Try e catch trabalham em conjunto.
+Finally
+Para instuções em comum no try...catch
+finally{}
+Includes
+Verificar se um objeto tem uma chave.
+Obj.includes(chave);
+
+07/12
+Dia 3: Jest
+NodeJS
+Assert
+    • Expressão com retorno booleano.
+    • Usado em apenas um arquivo
+    • Executa apenas um arquivo por vez. Preciso do shell para criar um script para avaliar vários arquivos.
+    • Precisa executar todos os testes, não pode escolher apenas um.
+    • Se um teste falha, a aplicação para e não é possível testar os próximos testes.
+Frameworks para testar ptoblemas
+    • Jest, Jasmine, Mocha.
+Jest
+    • Usado para testar programas maiores que vão em diferentes arquivos.
+    • Instalar package.json: Criar uma pasta no projeto pelo terminal > digitar: npm init -y;
+    • Retorno: 
+Wrote to /home/cleyton/Documents/meuApp/package.json:
+
+{
+  "name": "meuApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+    • A primeira chave "name", por padrão, terá o mesmo nome do diretório em que você criou o arquivo package.json . Ele representa o nome do seu projeto;
+    • A versão atual do projeto é "1.0.0", ou seja a primeira versão;
+    • Podemos adicionar alguma descrição na chave "description";
+    • A chave "scripts" define um conjunto de scripts Node que podem ser executados.
+
+Agora precisamos editar nosso package.json . Você deve ter observado que na chave "test" em "script" temos a seguinte informação: "test": "echo \"Error: no test specified\" && exit 1" . Isso significa que a nossa aplicação ainda não possui um script que defina como lidar com testes. Então vamos trocar essa informação por "test": "jest" . Não se esqueça de salvar o arquivo. Após a alteração teremos algo parecido com:
+{
+  "name": "meuApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+ }
+    • Mudei o test para jest abrindo o vccode e diitando manualmente “jest”.
+    • Depois precisa instalar o jest na pasta com o comando:
+npm install --save-dev jest
+Assim teremos 2 arquivos novas e no arquivo principal uma chave nova com a  versão do jest que estamos usando.
+ O "devDependencies" define os pacotes instalados no projeto como dependências de desenvolvimento. Ou seja, são pacotes que serão importantes apenas para o desenvolvimento do projeto. Existe também uma chave chamada "dependencies", que, diferente da primeira, lista os pacotes instalados como dependências de produção.
+O node_modules é a pasta que guarda todos os arquivos baixados das dependências instaladas.
+O package-lock.json é um arquivo que “trava” as versões das dependências. Quando outra pessoa executar npm install ou npm i para baixar as dependências, este arquivo garante que serão instaladas as mesmas versões para todo mundo.
+Aqui vale ressaltar mais um ponto. Lembra do arquivo .gitignore que vimos anteriormente? O .gitignore é utilizado para especificar arquivos ou diretórios que não queremos que sejam rastreados pelo git .
+É considerado uma boa prática no desenvolvimento, inserir a pasta node_modules em um arquivo .gitignore em todo projeto que você criar. Isso porque essa pasta contém centenas de arquivos e o processo de adicionar o seu projeto a um repositório remoto pode acarretar em mais tempo se você incluir essa pasta. Além disso, suponha que alguém vá realizar o clone do seu projeto, o processo também demoraria muito mais, visto que essa pasta contém muitos arquivos, mas pera aí, essa pasta não é importante porque guarda todos os arquivos das dependências instaladas? Sim, você tem razão, e é aí que os arquivos package.json e package-lock.json entram em cena. Ao clonar um projeto que contém dependências a serem instaladas, basta rodar dentro da pasta o comando npm install e todas as dependências e versões listadas nestes dois arquivos .json serão instaladas, criando a pasta node_modules .
+
+Escrever testes em Jest é muito simples, como você deve ter percebido enquanto lia o artigo anterior. Tudo que é necessário é utilizar a função test . A função it é um alias para test , ou seja, ambas se referem à mesma função e você pode usar qualquer uma delas. Essas funções, por serem globais, ficam automaticamente disponíveis nos seus arquivos uma vez que o Jest é instalado.
+A função test espera três argumentos. O primeiro argumento é o nome do teste. Esse nome identifica o teste e é também o texto que aparecerá quando os testes forem executados. O segundo argumento é uma função contendo suas expectations . Em outras palavras, é dentro dessa função que você fará os testes propriamente ditos. O terceiro argumento (opcional) é um timeout , indicando quanto tempo o Jest deve esperar que o teste execute antes de abortá-lo.
+// sum.js
+const sum = (a, b) => a + b;
+
+test('sums two values', () => {
+  expect(sum(2, 3)).toEqual(5);
+});
+
+Neste exemplo, tanto a implementação quanto os testes da função estão no mesmo arquivo. Na prática, porém, eles ficarão separados. Jest procura por arquivos com as extensões .js , .jsx , .ts e .tsx dentro de uma pasta com o nome __tests__ , ou arquivos com o sufixo .test ou .spec . É comum que o arquivo de teste tenha o mesmo nome e fique na mesma pasta do arquivo que está sendo testado, acrescido da sufixo .test.js :
+// sum.js
+const sum = (a, b) => a + b;
+
+module.exports = sum;
+
+// sum.test.js
+const sum = require('./sum');
+
+test('sums two values', () => {
+  expect(sum(2, 3)).toBe(5);
+});
+
+A linha module.exports = sum exporta a função sum no primeiro arquivo para que possa ser utilizada em outros módulos. No segundo arquivo, utilizamos require('./sum') para importar a função sum . Veja a seção de recursos adicionais para entender mais sobre como importar e exportar módulos em Node.js .
+
+Expectation Match
+    • toBe , que utilizamos no exemplo anterior, é o matcher mais simples. Esse matcher testa igualdade estrita entre o valor passado para expect e seu argumento. Isso significa, por exemplo, que um teste com o expectation abaixo falharia porque a string "5" não é igual ao número 5. → expect(5).toBe(“5”)
+    • Para compreendermos a diferença entre toEqual e toBe , precisamos entender que no JavaScript existem duas formas de atribuir valores. A primeira é para a variável e a segunda é para propriedade do objeto, bem como ao passar argumentos para uma função. Essas formas de atribuição são conhecidas por valor e referência .
+Para nos aprofundarmos nessas duas formas, é importante entender os tipos de dados, que separamos em tipos primitivos (Ex. number, string, boolean, etc) e objetos (Ex. Objetos, Funções, Arrays, etc).
+Os tipos primitivos a atribuição ocorre por valor , ou seja, uma cópia do valor original, pois eles são imutáveis. Eles são como gêmeos, uma vez o primeiro gêmeo corta seu cabelo, o segundo não terá seu cabelo alterado. 
+    • Por outro lado, os objetos tem atribuição por referência , ou seja, a cada vez que você cria um novo objeto, cria-se um novo espaço na memória para ele. Eles são mutáveis, por tanto podemos considerar que é uma forma de criar um apelido ( alias ) para o original, ou seja, você pode ser chamado pelo seu nome ou por seu apelido, mas você é uma pessoa única, não é possível criar um clone seu.
+    • Isso significa que objetos e arrays com conteúdo iguais são considerados diferentes no JavaScript . Para testar igualdade de objetos e arrays, é preciso usar o matcher toEqual , que acessa cada elemento do objeto ou array, fazendo um trabalho de comparação específico e que retorna uma resposta mais voltada para a necessidade dos testes:
+
+test('array and object equality', () => {
+  const arr = [1, 2 ,3];
+  const obj = { a: 1, b: 2, c: 3};
+
+  expect(arr).toBe([1, 2, 3]); // fails
+  expect(obj).toBe({ a: 1, b: 2, c: 3}); // fails
+  expect(arr).toEqual([1, 2, 3]); // OK
+  expect(obj).toEqual({ a: 1, b: 2, c: 3}); // OK
+});
+
+
+Aula ao vivo
+07/12
+npm → vejo se está instalado;
+npm init → tutorial
+Vulnerabilities: significa que as bibliotecas estão desatualizadas, usamos o audit para atualizar, mas não se deve atualizar porque cada projeto foi criado numa versão específica
+Para rodar coisas escrevemos: npm run → depois colocamos as palavras que estão dentro de srcipts como chave.
+Describe (“descreve função”, () => {it(“descreve”, () => {expect().toBe()}})
+Matches
+    • String → toMatch();
+    • Array → ToContain(), .toContainEqual(), .toHaveLength();
+    • Objeto → .toHaveProperty();
+Exceções
+    • .toThrow();
+Forçar o jest a rodar: npm install -g jest
+Describe
+A função describe cria um bloco para agrupar vários testes. Isso é útil para melhorar a organização dos seus testes. Você pode utilizar describe , por exemplo, para separar testes de funções diferentes em um mesmo arquivo, ou para agrupar testes relacionados dentro de uma função complexa que requer muitos testes. É possível aninhar blocos describe arbitrariamente. Dentro de cada bloco, qualquer declaração de variáveis ou funções é local a este bloco. Leia os exemplos na documentação do Jest para fixar.
+
+
