@@ -1,0 +1,1 @@
+//O filter é bem parecido com o find . O que o filter traz de novo é que, em vez de retornar apenas um elemento do array, ele retornará outro array com todos os elementos que satisfaçam à condição verificada pela função.
