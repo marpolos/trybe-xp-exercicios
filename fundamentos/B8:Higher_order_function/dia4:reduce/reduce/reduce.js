@@ -1,0 +1,1 @@
+//Array.reduce -> acumulador = acc, valor corrente: current = curr
