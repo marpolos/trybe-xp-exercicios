@@ -1,0 +1,5 @@
+Dicas Carolzita
+07/01/2022
+Quando aparece objct objct chamar: JSON.stringfy(variavel);
+Sempre usar o console.log() para verificar os retornos.
+Quando o lint reclamar de tamanho, reduzir as palavras.

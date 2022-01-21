@@ -60,7 +60,7 @@ Frameworks para testar ptoblemas
     • Jest, Jasmine, Mocha.
 Jest
     • Usado para testar programas maiores que vão em diferentes arquivos.
-    • Instalar package.json: Criar uma pasta no projeto pelo terminal > digitar: npm init -y;
+    • Instalar package.json: Criar uma pasta no projeto pelo terminal > digitar: npm init -y; -> OBS: o nome da pasta não pode ter espaços e : pois são caracteres reservados para caso esse código se torne um url.
     • Retorno: 
 Wrote to /home/cleyton/Documents/meuApp/package.json:
 
@@ -81,7 +81,8 @@ Wrote to /home/cleyton/Documents/meuApp/package.json:
     • Podemos adicionar alguma descrição na chave "description";
     • A chave "scripts" define um conjunto de scripts Node que podem ser executados.
 
-Agora precisamos editar nosso package.json . Você deve ter observado que na chave "test" em "script" temos a seguinte informação: "test": "echo \"Error: no test specified\" && exit 1" . Isso significa que a nossa aplicação ainda não possui um script que defina como lidar com testes. Então vamos trocar essa informação por "test": "jest" . Não se esqueça de salvar o arquivo. Após a alteração teremos algo parecido com:
+Agora precisamos editar nosso package.json . Você deve ter observado que na chave "test" em "script" temos a seguinte informação: "test": "echo \"Error: no test specified\" && exit 1" . 
+Isso significa que a nossa aplicação ainda não possui um script que defina como lidar com testes. Então vamos trocar essa informação por "test": "jest" . Não se esqueça de salvar o arquivo. Após a alteração teremos algo parecido com:
 {
   "name": "meuApp",
   "version": "1.0.0",
@@ -94,16 +95,17 @@ Agora precisamos editar nosso package.json . Você deve ter observado que na c
   "author": "",
   "license": "ISC"
  }
-    • Mudei o test para jest abrindo o vccode e diitando manualmente “jest”.
+    • Mudei o test para jest abrindo o vscode e digitando manualmente “jest”.
     • Depois precisa instalar o jest na pasta com o comando:
 npm install --save-dev jest
-Assim teremos 2 arquivos novas e no arquivo principal uma chave nova com a  versão do jest que estamos usando.
- O "devDependencies" define os pacotes instalados no projeto como dependências de desenvolvimento. Ou seja, são pacotes que serão importantes apenas para o desenvolvimento do projeto. Existe também uma chave chamada "dependencies", que, diferente da primeira, lista os pacotes instalados como dependências de produção.
+Assim teremos 2 arquivos novos e no arquivo principal uma chave nova com a  versão do jest que estamos usando.
+ O "devDependencies" define os pacotes instalados no projeto como dependências de desenvolvimento. 
+Ou seja, são pacotes que serão importantes apenas para o desenvolvimento do projeto. Existe também uma chave chamada "dependencies", que, diferente da primeira, lista os pacotes instalados como dependências de produção.
 O node_modules é a pasta que guarda todos os arquivos baixados das dependências instaladas.
 O package-lock.json é um arquivo que “trava” as versões das dependências. Quando outra pessoa executar npm install ou npm i para baixar as dependências, este arquivo garante que serão instaladas as mesmas versões para todo mundo.
-Aqui vale ressaltar mais um ponto. Lembra do arquivo .gitignore que vimos anteriormente? O .gitignore é utilizado para especificar arquivos ou diretórios que não queremos que sejam rastreados pelo git .
+Aqui vale ressaltar mais um ponto: Lembra do arquivo .gitignore que vimos anteriormente? O .gitignore é utilizado para especificar arquivos ou diretórios que não queremos que sejam rastreados pelo git .
 É considerado uma boa prática no desenvolvimento, inserir a pasta node_modules em um arquivo .gitignore em todo projeto que você criar. Isso porque essa pasta contém centenas de arquivos e o processo de adicionar o seu projeto a um repositório remoto pode acarretar em mais tempo se você incluir essa pasta. Além disso, suponha que alguém vá realizar o clone do seu projeto, o processo também demoraria muito mais, visto que essa pasta contém muitos arquivos, mas pera aí, essa pasta não é importante porque guarda todos os arquivos das dependências instaladas? Sim, você tem razão, e é aí que os arquivos package.json e package-lock.json entram em cena. Ao clonar um projeto que contém dependências a serem instaladas, basta rodar dentro da pasta o comando npm install e todas as dependências e versões listadas nestes dois arquivos .json serão instaladas, criando a pasta node_modules .
-
+Para isso: crie um arquivo chamado .gitignore e ao abri-lo no proprio vscode digite node_modules
 Escrever testes em Jest é muito simples, como você deve ter percebido enquanto lia o artigo anterior. Tudo que é necessário é utilizar a função test . A função it é um alias para test , ou seja, ambas se referem à mesma função e você pode usar qualquer uma delas. Essas funções, por serem globais, ficam automaticamente disponíveis nos seus arquivos uma vez que o Jest é instalado.
 A função test espera três argumentos. O primeiro argumento é o nome do teste. Esse nome identifica o teste e é também o texto que aparecerá quando os testes forem executados. O segundo argumento é uma função contendo suas expectations . Em outras palavras, é dentro dessa função que você fará os testes propriamente ditos. O terceiro argumento (opcional) é um timeout , indicando quanto tempo o Jest deve esperar que o teste execute antes de abortá-lo.
 // sum.js

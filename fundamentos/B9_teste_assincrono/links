@@ -1,0 +1,14 @@
+
+JEST
+Teste assíncrono em pt-br: https://deltice.github.io/jest/docs/pt-BR/asynchronous.html#content
+Mock em pt-br: https://deltice.github.io/jest/docs/pt-BR/mock-functions.html#content
+Mock site oficial jest: https://jestjs.io/docs/asynchronous
+Método Error: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Error
+Fetch API em pt-br: https://www.braziljs.org/p/fetch-api-e-o-javascript
+Callback hell: https://www.toptal.com/javascript/asynchronous-javascript-async-await-tutorial
+Promises: http://mariechatfield.com/tutorials/explanations/asynchronous-code.html
+O que é um callback: https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced
+Callback no MDN: https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
+Callback em pt-br: https://medium.com/totvsdevelopers/entendendo-fun%C3%A7%C3%B5es-callback-em-javascript-7b500dc7fa22
+Setup e teardown no jest oficial: https://jestjs.io/docs/setup-teardown
+

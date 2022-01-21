@@ -1,0 +1,1 @@
+//Callback é uma função passada como parâmetro para outra função.
