@@ -11,9 +11,9 @@ class Pokemon extends React.Component {
                     <div className='poke'>
                         <img src={image} alt={name} />
                         <div className='infos-poke'>
-                            { `Nome: ${name}` }
-                            { `Type: ${type}`}
-                            { `Peso: ${value} ${measurementUnit}`}
+                            <p>{ `Nome: ${name}` }</p>
+                            <p>{ `Type: ${type}`}</p>
+                            <p>{ `Peso: ${value} ${measurementUnit}`}</p>
                         </div>
                     </div>
                 )

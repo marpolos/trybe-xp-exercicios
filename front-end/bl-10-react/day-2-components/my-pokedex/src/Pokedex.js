@@ -4,10 +4,14 @@ import Pokemon from './Pokemon';
 class Pokedex extends React.Component {
     render() {
         return (
-            <div className='pokedex'>
-            <h1>Pokedex</h1>
-            <Pokemon />
-            </div>
+            <>
+            <header>
+                <h1>Pokedex</h1>
+            </header>
+            <main className='pokedex'>
+              <Pokemon />
+            </main>
+            </>
         )
     }
 }
