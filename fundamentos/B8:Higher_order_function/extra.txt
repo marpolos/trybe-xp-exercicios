@@ -1,1 +1,12 @@
 resumo reduce, filter and map: https://jstutorial.medium.com/map-filter-and-reduce-animated-7fe391a35a47
+Entendendo HOF: https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad
+Intro a HOF: https://www.freecodecamp.org/news/a-quick-intro-to-higher-order-functions-in-javascript-1a014f89c6b/
+Eloquente JS: https://eloquentjavascript.net/05_higher_order.html
+Callback: https://developer.mozilla.org/pt-BR/docs/Glossary/Callback_function
+ForEach: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+Sort: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+Map: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+Filter: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+Map/reduce/filter: https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d
+Reduce: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+

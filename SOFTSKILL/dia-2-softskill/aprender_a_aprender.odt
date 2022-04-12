@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css">
+    <title>Dinâmica dia de soft skills</title>
+     <style>
+     .uppercase{
+     text-transform: uppercase; 
+     }
+     </style>
+</head>
+
+<body>
+  <article>  
+    <img src="https://www.educamundo.com.br/uploads/blog_posts/featured_images/equipe-1.png" alt="image" />
+    <h2>Por que eu preciso entender sobre Diversidade & Inclusão para trabalhar como dev?</h2>
+    <img src="http://lorempixel.com.br/500/500"
+     alt="imagem" /><p>Talvez você não esperasse entrar em contato com a temática da Diversidade & Inclusão num curso de desenvolvimento web. E está tudo bem. A relação entre programar e conviver, respeitar e celebrar as diferenças entre as pessoas nem sempre é óbvia ou fácil de ser entendida e colocada em prática.</p>
+    <img src="http://lorempixel.com.br/500/500" alt="imagem-2" />
+    <img src="https://www.meioemensagem.com.br/wp-content/uploads/2019/12/diversidade_575x300_sv_sunny_istock.jpg"
+    alt="image" />  
+    <p>
+        😀Talvez você não esperasse entrar em contato com a temática da Diversidade & Inclusão num curso de desenvolvimento web. <br />
+      🐶E está tudo bem. A relação entre programar e conviver, respeitar e celebrar as diferenças entre as pessoas nem sempre é óbvia ou fácil de ser entendida e colocada em prática.
+      Mas nós precisamos nos informar sobre esse assunto se quisermos disputar as melhores oportunidades de trabalho e progredir em culturas organizacionais plurais, <br /> 
+      onde inexiste espaço para o preconceito com quem é diferente de nós. <br />
+        🏟️E aqui falamos de todos os tipos de diferenças: idade, gênero, país, região, religião, cultura, orientação sexual, modo de pensar, de se vestir. Tudo conta. <br />
+      Por isso, convidamos você a consumir este conteúdo com a cabeça aberta e muito foco nos materiais ofertados. <br />
+        🏟️Tente esquecer por alguns instantes qualquer ideia pré-concebida que você tenha sobre Diversidade & Inclusão, para navegarmos em conjunto pelos conceitos, <br />
+      fatos e dados abordados nessa parte da nossa trilha de soft skills. Combinado?
+      Então, vamos seguir para o nosso próximo tópico: falaremos sobre diversidade, inclusão e o mercado de trabalho. <br />
+      Um spoiler: é quase impossível pensar a existência de equipes de desenvolvimento web de sucesso que não tenham pessoas diversas trabalhando juntas. Esse é, <br />
+      por exemplo, o caso do time do Google, uma das maiores empresas de tecnologia do mundo.
+    </p>
+    <img src="http://lorempixel.com.br/500/500" alt="img-4" />
+    <div class="uppercase">
+      <p>🏟️Mas nós precisamos nos informar sobre esse assunto se quisermos disputar as melhores oportunidades de trabalho e progredir em culturas organizacionais plurais, onde inexiste espaço para o preconceito com quem é diferente de nós. E aqui falamos de todos os tipos de diferenças: idade, gênero, país, região, religião, cultura, orientação sexual, modo de pensar, de se vestir. Tudo conta.</p>
+      <img src="http://lorempixel.com.br/500/500" alt="img-3"/>
+      <p>Por isso, convidamos você a consumir este conteúdo com a cabeça aberta e muito foco nos materiais ofertados. Tente esquecer por alguns instantes qualquer ideia pré-concebida que você tenha sobre Diversidade & Inclusão, para navegarmos em conjunto pelos conceitos, fatos e dados abordados nessa parte da nossa trilha de soft skills. Combinado?</p>
+      <img src="http://lorempixel.com.br/500/500" alt="img-5" />
+      <p>🏟️Então, vamos seguir para o nosso próximo tópico: falaremos sobre diversidade, inclusão e o mercado de trabalho. Um spoiler: é quase impossível pensar a existência de equipes de desenvolvimento web de sucesso que não tenham pessoas diversas trabalhando juntas. Esse é, por exemplo, o caso do time do Google, uma das maiores empresas de tecnologia do mundo:</p>
+      <img src="https://media1.giphy.com/media/TWcsDWFc6KGEp9GWYM/200w.webp?cid=ecf05e47ibnuvgfsa51eqpswgdlfbamga067xwlew6b0xflj&rid=200w.webp&ct=g" alt="img-6" />
+    </div>
+    <section>
+      <h3>🐭Por que eu preciso entender sobre Diversidade & Inclusão para trabalhar como dev?</h3>
+      <p>
+          😀A relação entre programar e conviver, respeitar e celebrar as diferenças entre as pessoas nem sempre é óbvia ou fácil de ser entendida e colocada em prática. <br/>
+          😁Mas nós precisamos nos informar sobre esse assunto se quisermos disputar as melhores oportunidades de trabalho e progredir em culturas organizacionais plurais, <br/>
+          🔥onde inexiste espaço para o preconceito com quem é diferente de nós. E aqui falamos de todos os tipos de diferenças: idade, gênero, país, região, religião, cultura, orientação sexual, modo de pensar, de se vestir. Tudo conta.
+      </p>
+    </section>
+    <img src="https://www.siteware.com.br/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2018/07/colaboracao-ambiente-de-trabalho.png.webp" alt="image" />
+    <h3>
+     🐶 Diversidade, inclusão e o mercado de trabalho
+    </h3>
+    <img src="https://user-images.githubusercontent.com/82122044/134011599-fdfd6b98-cd26-47d4-ad0b-b909571884b9.gif" alt="tema-2" />
+    <p>
+      😀Segundo uma pesquisa publicada em dezembro de 2020 pela Você S/A, cujo objetivo era o de entender políticas de Diversidade & Inclusão praticadas em contextos organizacionais, 97% das empresas ouvidas para o estudo e que investiram em diversidade naquele ano pretendiam manter ou aumentar os seus investimentos para 2021.
+    </p>
+    <p>
+      <strong>🐶Isso acontece porque o universo corporativo está descobrindo que estratégias focadas na construção de times diversos melhoram o desempenho das organizações, além de incentivarem aspectos como inovação, motivação e liderança.</strong>
+    </p>
+      <img src="https://media0.giphy.com/media/ZD2KtpqvfOF8S2ISHr/200w.webp?cid=ecf05e4732gmqsfmv7f1c6xu9ujzna8xgcfycxzd7imyjaos&rid=200w.webp&ct=g" alt="img-8" />
+    <p>
+      🐶Outro ponto relevante para o aumento do interesse de empresas pela promoção à diversidade é o fato de que ambientes plurais e inclusivos aumentam o compromisso, o desempenho e o senso de pertencimento das pessoas colaboradoras: todo mundo se sente confortável para ser quem, de fato, é.
+    </p>
+    <img src="https://media0.giphy.com/media/t4XsnDxaHd3qWzXwpJ/giphy.webp?cid=ecf05e47ibnuvgfsa51eqpswgdlfbamga067xwlew6b0xflj&rid=giphy.webp&ct=g" alt="img=7" />
+  </article>
+  </body>
+</html>

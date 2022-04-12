@@ -1,0 +1,8 @@
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+  }
+
+  /* O CSS module significa que vou usá-lo para um component específico que o chamar, e não globalmente. */

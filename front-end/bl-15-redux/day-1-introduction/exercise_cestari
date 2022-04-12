@@ -1,0 +1,43 @@
+const Redux = require('redux');
+// ====== Função que altera a interface =====
+const showCountValue = (counter) => {
+  const h1Element = document.getElementById("counter");
+  h1Element.innerText = counter;
+};
+
+showCountValue(0);
+const increment = { type: 'HANDLE_INCREMENT'};
+const decrement = { type: 'HANDLE_DECREMENT'};
+
+// ========== Definir Reducer ==========
+const initialState = { count: 0 };
+const reducer = (state = initialState, action) => {
+  if(action.type === 'HANDLE_INCREMENT') {
+    return { count: state.count += 1 }
+  }
+  if(action.type === 'HANDLE_DECREMENT') {
+    return { count: state.count -= 1 }
+  }
+  return state;
+};
+
+// ========== Criar a Store ==========
+const store = Redux.createStore(reducer);
+
+// ========== Lendo e reagindo a mudanças do Estado Global ==========
+store.subscribe(() => {
+  const { count } = store.getState();
+  showCountValue(count);
+});
+
+// ========== Disparar as Actions ==========
+const incrementButton = document.getElementById("inc");
+const decrementButton = document.getElementById("dec");
+
+incrementButton.addEventListener("click", () => {
+  store.dispatch(increment);
+});
+decrementButton.addEventListener("click", () => {
+  store.dispatch(decrement);
+});
+
