@@ -1,0 +1,2 @@
+dependencias x dev dependencias x peer: https://dev.to/stefanyrepetcki/diferenca-entre-devdependencies-dependencies-e-peerdependencies-5h0l?signin=true
+

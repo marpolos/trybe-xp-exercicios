@@ -1,0 +1,44 @@
+Intensivo de docker: https://www.youtube.com/watch?v=XBo9r7cGg_o
+Guia de docker: https://github.com/codeedu/wsl2-docker-quickstart
+Melhores práticas em docker: https://github.com/miendinh/docker-notes
+Servidor web: https://pt.wikipedia.org/wiki/Servidor_web
+HTTPS: https://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+Servidor apache: https://pt.wikipedia.org/wiki/Servidor_Apache
+Limpar container: https://www.macoratti.net/19/02/dock_limp1.htm
+Storage driver: https://docs.docker.com/storage/storagedriver/
+Docker layer: https://dzone.com/articles/docker-layers-explained
+Docker images: https://docs.docker.com/engine/reference/commandline/images/
+Docker reference: https://docs.docker.com/engine/reference/builder/
+Multi build: https://docs-docker-com.translate.goog/develop/develop-images/multistage-build/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=nui
+Nginx: https://pt.wikipedia.org/wiki/Nginx
+nginx x apache
+daemon: https://pt.wikipedia.org/wiki/Daemon_(computa%C3%A7%C3%A3o)
+Page em react no docker: https://medium.com/geekculture/getting-started-with-docker-in-your-react-js-application-the-basics-6e5300cf749d
+Guia oficial para instalar o compose: https://docs.docker.com/compose/install/#install-compose
+Versions do compose: https://docs.docker.com/compose/compose-file/compose-versioning/#versioning
+Enviroment vriables: https://docs.docker.com/compose/environment-variables/
+Real life dev: https://app.betrybe.com/course/real-life-engineer
+Tópicos extra de docker: https://app.betrybe.com/course/real-life-engineer/docker/docker-extra
+Entendendo redes no docker: https://stack.desenvolvedor.expert/appendix/docker/rede.html
+Docker network para windows: https://medium.com/dockerbr/docker-trabalhando-com-network-64d0bf66263f
+Video redes docker 15': https://www.youtube.com/watch?v=YkLgYhVNPUY
+Orquestrando com compose -> esse site é um livro de docker: https://stack.desenvolvedor.expert/appendix/docker/compose.html
+Começando o compose -> manual documentação: https://docs.docker.com/compose/gettingstarted/
+Docker e compose para iniciantes: https://dev.to/ingresse/docker-e-docker-compose-um-guia-para-iniciantes-48k8
+Instalação do compose no ubuntu: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-pt
+Docker compose explicado com comandos: https://blog.4linux.com.br/docker-compose-explicado/
+O que é o compose? https://imasters.com.br/banco-de-dados/docker-compose-o-que-e-para-que-serve-o-que-come
+Configurando docker e persistência de dados: https://docker-unleashed.readthedocs.io/aula2.html
+Como criur volume: https://phoenixnap.com/kb/docker-volumes
+Guia para volumes: https://www.baeldung.com/ops/docker-volumes
+Livro do docker cap sobre volumes: https://stack.desenvolvedor.expert/appendix/docker/armazenamento.html
+Docker image from container: https://www.sentinelone.com/blog/create-docker-image/
+Criar uma imagem a partir de um container: https://thenewstack.io/tutorial-create-a-docker-image-from-a-running-container/
+Buildar e dockerizar a fullstack react com node, mysql e ngnix: https://www.section.io/engineering-education/build-and-dockerize-a-full-stack-react-app-with-nodejs-and-nginx/
+Basicão de docker em vídeo: https://www.youtube.com/watch?v=XBo9r7cGg_o
+Resumão docker: https://www.youtube.com/watch?v=MeFyp4VnNx0
+Livro do docker em português: https://livro.descomplicandodocker.com.br/
+Aprendendo a usar o docker com a documentação step-by-step: https://docs.docker.com/get-started/
+docs docker: https://docs.docker.com/
+
+
