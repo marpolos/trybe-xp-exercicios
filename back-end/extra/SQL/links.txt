@@ -20,4 +20,10 @@ delete a row: https://www.guru99.com/delete-and-update.html
 insert: https://www.mysqltutorial.org/mysql-insert-statement.aspx
 Treino select e outros comandos: https://sqlzoo.net/wiki/Nobel_Quiz
 MySQL Tutorial: https://www.w3resource.com/mysql/mysql-tutorials.php
+Ajustar timezone fuso horário: https://elias.praciano.com/2015/07/como-ajustar-o-fuso-horario-ou-timezone-no-mysql/
+Comandos gerais no SQL: https://www.freecodecamp.org/news/learn-sql-in-10-minutes/
+SQL Cheat sheet: https://www.sqltutorial.org/wp-content/uploads/2016/04/SQL-cheat-sheet.pdf
+SQL basics cheat sheet: https://learnsql.com/blog/sql-basics-cheat-sheet/sql-basics-cheat-sheet-a4.pdf
+Linguagem alto/baixo nível: https://woliveiras.com.br/posts/o-que-e-linguagem-de-programacao-de-alto-nivel/
+Funções avançadas: https://app.betrybe.com/course/real-life-engineer/mysql-extra
 
