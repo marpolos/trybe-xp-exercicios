@@ -1,0 +1,15 @@
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/bin/Debug/net6.0/transformations
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/bin/Debug/net6.0/transformations.deps.json
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/bin/Debug/net6.0/transformations.runtimeconfig.json
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/bin/Debug/net6.0/transformations.dll
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/bin/Debug/net6.0/transformations.pdb
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/obj/Debug/net6.0/transformations.csproj.AssemblyReference.cache
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/obj/Debug/net6.0/transformations.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/obj/Debug/net6.0/transformations.AssemblyInfoInputs.cache
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/obj/Debug/net6.0/transformations.AssemblyInfo.cs
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/obj/Debug/net6.0/transformations.csproj.CoreCompileInputs.cache
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/obj/Debug/net6.0/transformations.dll
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/obj/Debug/net6.0/refint/transformations.dll
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/obj/Debug/net6.0/transformations.pdb
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/obj/Debug/net6.0/transformations.genruntimeconfig.cache
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/transformations/obj/Debug/net6.0/ref/transformations.dll
