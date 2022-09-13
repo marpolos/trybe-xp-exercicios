@@ -1,0 +1,31 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test NODE_NO_WARNINGS=1 mocha",
+    "start": "nodemon ./src/app.js",
+    "seed": "node ./src/app.js true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.20.1",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chance": "^1.1.8",
+    "factory-girl": "^5.0.4",
+    "faker": "^6.6.6",
+    "mocha": "^10.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.3"
+  }
+}

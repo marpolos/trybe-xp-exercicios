@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "marcelle2208",
+    "database": "medium-learn-sequelize-many",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "marcelle2208",
+    "database": "medium-learn-sequelize-many",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "marcelle2208",
+    "database": "medium-learn-sequelize-many",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

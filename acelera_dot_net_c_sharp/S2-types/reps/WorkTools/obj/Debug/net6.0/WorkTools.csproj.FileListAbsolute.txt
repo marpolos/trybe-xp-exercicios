@@ -1,0 +1,15 @@
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/bin/Debug/net6.0/WorkTools
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/bin/Debug/net6.0/WorkTools.deps.json
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/bin/Debug/net6.0/WorkTools.runtimeconfig.json
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/bin/Debug/net6.0/WorkTools.dll
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/bin/Debug/net6.0/WorkTools.pdb
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/obj/Debug/net6.0/WorkTools.csproj.AssemblyReference.cache
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/obj/Debug/net6.0/WorkTools.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/obj/Debug/net6.0/WorkTools.AssemblyInfoInputs.cache
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/obj/Debug/net6.0/WorkTools.AssemblyInfo.cs
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/obj/Debug/net6.0/WorkTools.csproj.CoreCompileInputs.cache
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/obj/Debug/net6.0/WorkTools.dll
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/obj/Debug/net6.0/refint/WorkTools.dll
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/obj/Debug/net6.0/WorkTools.pdb
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/obj/Debug/net6.0/WorkTools.genruntimeconfig.cache
+/home/marcelle/repository/trybe-xp-exercicios/acelera_dot_net_c_sharp/S2-types/reps/WorkTools/obj/Debug/net6.0/ref/WorkTools.dll
