@@ -6,6 +6,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
+!
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
 ##### Bloco 1: Introdução - Unix & Shell
@@ -84,6 +85,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 10-3: _Jest - Simulando comportamentos_
 - [x] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
+![](https://media3.giphy.com/media/kBZBlLVlfECvOQAVno/giphy.gif?cid=ecf05e47y3v4qzwx0zj8gcsmjnsrc78laxa1ea2jsag90101&rid=giphy.gif)
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 11: Introdução - React
@@ -236,6 +238,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 34-1: _[Projeto - Trybeer V2]()_
 
+![](https://media4.giphy.com/media/zfNAMCrhSQzte/giphy.gif?cid=ecf05e47y3v4qzwx0zj8gcsmjnsrc78laxa1ea2jsag90101&rid=giphy.gif)
 ## Ciência da Computação :hourglass_flowing_sand:
 
 ##### Bloco 35: Introdução - Ciência da Computação
@@ -254,3 +257,4 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 35-5: _[Projeto - Tech news]()_
 
 # [...]
+![](https://media4.giphy.com/media/AwoDg0wJImOjK/giphy.gif?cid=ecf05e47y3v4qzwx0zj8gcsmjnsrc78laxa1ea2jsag90101&rid=giphy.gif)
